@@ -1,0 +1,14 @@
+# Kangaroo Configuration File - Example 1
+# Small test range for quick verification
+
+# Target public key (compressed format)
+# This is actually the generator point G for secp256k1
+PublicKey: 0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
+
+# Small range for testing (private key = 1)
+RangeStart: 1
+RangeEnd: 100000
+
+# Optional settings
+# Threads: 2
+# DPBits: 10

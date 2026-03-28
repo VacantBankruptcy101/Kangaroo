@@ -1,0 +1,16 @@
+# Kangaroo Configuration File - Bitcoin Puzzle Example
+# This is for Bitcoin Puzzle #40 (solved) - for demonstration only
+
+# Public key for puzzle #40
+# Actual key: 0xa2dcc9
+PublicKey: 02a2efa402fd5268400c77c20e574ba86409ededee7c4020e4b9f0edbee53de0d4
+
+# Range: 2^39 to 2^40
+RangeStart: 0x8000000000
+RangeEnd: 0xFFFFFFFFFF
+
+# Optional: Use multiple threads
+Threads: 4
+
+# Optional: DP bits (will auto-calculate if not specified)
+# DPBits: 18
